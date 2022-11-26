@@ -24,6 +24,9 @@ call plug#begin()
  Plug 'https://github.com/junegunn/fzf.vim' "search ingen in fyle
  Plug 'https://github.com/neoclide/coc.nvim' 
  Plug 'https://github.com/gruvbox-community/gruvbox' "theme color
+ Plug 'https://github.com/AndrewRadev/tagalong.vim' "ferme the tage change
+ Plug 'https://github.com/neoclide/coc-pairs' 
+ " goyo plauging
 
 call plug#end()
 
@@ -47,3 +50,4 @@ let g:user_emmet_leader_key=','
 
 " search in vim 
 nnoremap <C-s> :Ag<CR>
+
